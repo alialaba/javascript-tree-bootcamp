@@ -1,4 +1,8 @@
 let items = [];
+console.log("it value will be an empty array []")
 console.log(items);
-let animals = ['dog', 'cat', 'cow', 'fishlet'];
-console.log(animals);
+let domesticAnimals = ["cat", "sheep", "goat"];
+console.log(domesticAnimals[1])
+    // domesticAnimals.push("Piglet")
+domesticAnimals = ["cat", "Piglet", "sheep", "goat"]
+console.log(domesticAnimals[1]);

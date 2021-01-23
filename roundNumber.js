@@ -1,11 +1,9 @@
 let z = 7.25;
 console.log(z);
-let a = 7.28;
+let a = Math.round(z);
 console.log(a)
 if (z > a) {
-    console.log(z + ' is greater than');
-} else if (a > z) {
-    console.log(a + ' is greater than');
+    console.log("the highest value is " + z);
 } else {
-    console.log("they are same")
+    console.log("the highest value is " + a);
 }
